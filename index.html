@@ -30,6 +30,17 @@
                 border: 1px solid black;
                 text-align: center;
             }
+            
+            .explainbox-flex{
+                display : flex;
+            }
+            .explainbox-flex > div{
+                display : flex;
+            }
+
+            .p-active > span{
+                content : "(●'◡'●)"
+            }
         </style>
     </head>
     <body>
@@ -38,6 +49,54 @@
                 https://velog.io/@gwak2837/GitHub-Pages-gh-pages%EB%A1%9C-%EB%AC%B4%EB%A3%8C-%EC%9B%B9-%ED%98%B8%EC%8A%A4%ED%8C%85%ED%95%98%EA%B8%B0
                 https://phodobit.kr/49
         -->
+        <h1>HTML / CSS / Script</h1>
+        <div class="explainbox-flex">
+            <div>
+                <p><b><font size="5rem">HTML</font></b></p>
+                <p>DOM 구조 뼈대 구성 및 DOM객체 형성과 기본 기능 제공.</p>
+                <p>정적인 컨텐츠 작성.</p>
+                <ul>
+                    <li>
+                        속성값 설정 가능.
+                    </li>
+                    <li>
+                        onCick, onChange 등의 속성을 통한 이벤트 바인딩.
+                    </li>
+                    <li>
+                        form 태그 : submit 버튼을 통한 액션 기능.
+                    </li>
+                </ul>
+            </div>
+
+
+            <div>
+                <p><b><font size="5rem">CSS</font></b></p>
+                <p>DOM 객체에 디자인을 적용하기 위해 사용하는 언어.</p>
+                <p>CSS선택자(DOM 객체 선택자)를 통해 객체를 선택하여 CSS를 입힘.</p>
+                <p>미리 작성된 css class를 DOM객체의 class 속성에 적용해 css를 입힘.</p>
+                <ul>
+                    <li>
+                        background-color, display 등 디자인 설정기능.
+                    </li>
+                    <li>
+                        animation 효과 적용 가능.
+                    </li>
+                    <li>
+                        가상 클래스 혹은 해당 클래스를 통해 DOM객체에 내용 작성 가능.
+                        <p class="p-active">선택됨<span></span></p>
+                        <p>선택안됨.</p>
+                    </li>
+                </ul>
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+
+
+        <hr/>
+
         <h1>JS / jQuery / ES6 문법 비교</h1>
 
         <div id="box">
