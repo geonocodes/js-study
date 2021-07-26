@@ -18,7 +18,16 @@
             }
             #box > div{
                 width: 33%;
-                border: 1px solid white;
+                border: 1px solid black;
+                text-align: center;
+            }
+
+            .arr-box-display{
+                display : flex;
+            }
+            .arr-box-display > div{
+                width: 33%;
+                border: 1px solid black;
                 text-align: center;
             }
         </style>
@@ -35,14 +44,47 @@
             <div id="jsBox">
                 Hi JavaScript!
                 <p id="jsP">JavaScript Text</p>
+                <div id="jsArrBox" class="arr-box-display">
+                    <div id="jsArrBox1">
+                        box1
+                    </div>
+                    <div id="jsArrBox2">
+                        box2
+                    </div>
+                    <div id="jsArrBox2">
+                        box3
+                    </div>
+                </div>
             </div>
             <div id="jQueryBox">
                 Hello jQuery!
                 <p id="jQueryP">jQuery Text</p>
+                <div id="jQueryArrBox">
+                    <div id="jQueryArrBox1" class="arr-box-display">
+                        box1
+                    </div>
+                    <div id="jQueryArrBox2" class="arr-box-display">
+                        box2
+                    </div>
+                    <div id="jQueryArrBox2" class="arr-box-display">
+                        box3
+                    </div>
+                </div>
             </div>
             <div id="es6Box">
                 Welcome ES6 JS!
                 <p id="es6P">ES6 Text</p>
+                <div id="jQueryArrBox">
+                    <div id="es6ArrBox1" class="arr-box-display">
+                        box1
+                    </div>
+                    <div id="es6ArrBox2" class="arr-box-display">
+                        box2
+                    </div>
+                    <div id="es6ArrBox2" class="arr-box-display">
+                        box3
+                    </div>
+                </div>
             </div>
         </div>
     </body>
